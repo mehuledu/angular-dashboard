@@ -11,8 +11,8 @@ export class BookmarkComponent implements OnInit {
   constructor(private bookmarkService: BookmarkService) {}
 
   ngOnInit() {
-    this.bookmarkService.getJSON().subscribe(data => {
-      console.log(data);
+    this.bookmarkService.getJSON().subscribe(response => {
+      this.data = response;
     });
   }
 }
