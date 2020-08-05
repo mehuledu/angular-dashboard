@@ -6,9 +6,9 @@ import { PageNotFoundComponent } from './../page-not-found/page-not-found.compon
 
 const routes: Routes = [
   { path: "first-component", component: BookmarkComponent },
-  { path: "second-component", component: BookmarkComponent },
-  { path: "", redirectTo: "/superheroes", pathMatch: "full" },
-  { path: "**", component: PageNotFoundComponent }
+  { path: "bookmark", component: BookmarkComponent },
+  { path: "", redirectTo: "/bookmark", pathMatch: "full" },
+  { path: "**", component: BookmarkComponent }
 ];
 
 // configures NgModule imports and exports
