@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-	<div [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}" id="navbarSupportedContent">
+	<div class="navbar-collapse" [class.collapse]="navbarCollapsed" (click)="toggleCollapsed()" >
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
 				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
