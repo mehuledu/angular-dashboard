@@ -6,10 +6,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { BookmarkComponent } from './bookmark/bookmark.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule, AppRoutingModule ],
-  declarations: [ AppComponent, BookmarkComponent ],
+  declarations: [ AppComponent, BookmarkComponent, NavbarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
