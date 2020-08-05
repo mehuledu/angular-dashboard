@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 
-import { BookmarkComponent } from './../'
+import { BookmarkComponent } from './bookmark/bookmark.component';
 
 const routes: Routes = [
   { path: 'first-component', component: BookmarkComponent },
