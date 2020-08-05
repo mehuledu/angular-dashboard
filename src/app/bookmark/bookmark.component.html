@@ -1,4 +1,6 @@
 <p>
 bookmark works!
 </p>
-{{data | json}}
+<ng-container *ngFor="let x of data[0].reference">
+  <div>{{x}}</div>
+</ng-container>
