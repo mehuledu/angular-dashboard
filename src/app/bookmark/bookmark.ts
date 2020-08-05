@@ -1,4 +1,4 @@
 export class Bookmark {
   subject: string;
-  reference: Array<string>;
+  references: Array<string>;
 }

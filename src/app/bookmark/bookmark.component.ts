@@ -7,12 +7,10 @@ import { Bookmark } from "./bookmark";
   styleUrls: ["./bookmark.component.css"]
 })
 export class BookmarkComponent implements OnInit {
-  data: Array<Bookmark> = [];
+  bookmarks: Array<Bookmark> = [];
   constructor(private bookmarkService: BookmarkService) {}
 
   ngOnInit() {
-    this.bookmarkService.getJSON().subscribe(response => {
-      this.data = response;
-    });
+    this.bookmarkService.getJSON().subscribe((response) => this.bookmarks = response);
   }
 }

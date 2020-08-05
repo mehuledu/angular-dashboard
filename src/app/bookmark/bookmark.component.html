@@ -1,6 +1,6 @@
-<p>
-bookmark works!
-</p>
-<ng-container *ngFor="let x of data[0].reference">
-  <div>{{x}}</div>
+<ng-container *ngFor="let bookmark of bookmarks">
+	<h3>{{bookmark.subject}}</h3>
+	<ng-container *ngFor="let reference of bookmark.references">
+		{{reference}}
+	</ng-container>
 </ng-container>
