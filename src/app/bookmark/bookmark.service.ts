@@ -11,7 +11,6 @@ export class BookmarkService {
   }
 
   public getJSON(): Observable<any> {
-    console.log("ttt");
     return this.http.get("./assets/bookmark.json");
   }
 }
