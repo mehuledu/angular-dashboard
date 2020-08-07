@@ -1,6 +1,7 @@
 <ng-container *ngFor="let bookmark of bookmarks">
 	<h3>{{bookmark.subject}}</h3>
 	<ng-container *ngFor="let reference of bookmark.references">
-		{{reference}}
+		<p>{{reference.url}}</p>
+		<p>{{reference.description}}</p>
 	</ng-container>
 </ng-container>

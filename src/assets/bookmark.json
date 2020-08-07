@@ -2,7 +2,14 @@
   {
     "subject": "angular",
     "references": [
-      "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/"
+      {
+        "url": "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/",
+        "description": ""
+      },
+      {
+        "url": "https://embed.plnkr.co/plunk/OPzCGl",
+        "description": "ng-bootstrap datepicker custome date format"
+      }
     ]
   }
 ]
