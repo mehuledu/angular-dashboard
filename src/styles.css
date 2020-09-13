@@ -1,2 +1,9 @@
 /* Add application styles & imports to this file! */
 @import "bootstrap/dist/css/bootstrap.min.css";
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+.nav-title{
+  font-weight: 600;
+}
