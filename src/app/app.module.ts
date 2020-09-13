@@ -15,10 +15,11 @@ import { BookmarkComponent } from './bookmark/bookmark.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BookmarkService } from './bookmark/bookmark.service';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SamsungNavbarComponent } from './samsung-navbar/samsung-navbar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule, AppRoutingModule,HttpClientModule],
-  declarations: [ AppComponent, BookmarkComponent, NavbarComponent, PageNotFoundComponent ],
+  declarations: [ AppComponent, BookmarkComponent, NavbarComponent, PageNotFoundComponent, SamsungNavbarComponent ],
   bootstrap:    [ AppComponent ],
   providers: [BookmarkService]
 })
