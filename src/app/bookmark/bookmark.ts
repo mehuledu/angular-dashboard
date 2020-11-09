@@ -5,6 +5,7 @@ export class Bookmark {
 }
 
 export class reference {
+  faviconUrl?: string;
   url: string;
   description?: string;
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { JsonDataService } from "./../services/json-data.servic";
+import { JsonDataService } from "./../services/json-data.service";
 import { Bookmark } from "./bookmark";
 @Component({
   selector: "app-bookmark",
@@ -11,8 +11,10 @@ export class BookmarkComponent implements OnInit {
   constructor(private bookmarkService: JsonDataService) {}
 
   ngOnInit() {
-    this.bookmarkService.getJSON("bookmark").subscribe(response => {
-      this.bookmarks = response;
-    });
+    this.bookmarkService
+      .getJSON("bookmark")
+      .subscribe((response: Array<Bookmark>) => {
+        this.bookmarks = response;
+      });
   }
 }
