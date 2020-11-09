@@ -2,12 +2,12 @@
 	<div class="row">
 		<ng-container *ngFor="let bookmark of bookmarks">
 			<ng-container *ngFor="let reference of bookmark.references">
-				<div class="card text-center" style="width: 18rem;">
+				<div class="card text-center ml-2 mt-2" style="width: 18rem;">
 					<div class="card-body">
 						<h5 class="card-title"><img [src]="reference.faviconUrl"></h5>
 							<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
 							<p class="card-text">{{reference.description}}</p>
-							<a [href]="reference.url" class="card-link" _target="blank">Open link</a>
+							<a [href]="reference.url" class="card-link" target="_blank">Open link</a>
 					</div>
 				</div>
 			</ng-container>
