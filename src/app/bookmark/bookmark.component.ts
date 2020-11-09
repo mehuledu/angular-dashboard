@@ -17,8 +17,7 @@ export class BookmarkComponent implements OnInit {
         this.bookmarks = response;
         this.bookmarks.forEach((obj: Bookmark) => {
           obj.references.map((obj: Reference) => {
-            obj.faviconUrl = this.getFaviconUrl(obj.url);;
-            
+            obj.faviconUrl = this.getFaviconUrl(obj.url);
           });
         });
       });
@@ -29,6 +28,9 @@ export class BookmarkComponent implements OnInit {
     console.log(url.protocol); // http:
     console.log(url.host); // localhost:8080
     console.log(url.port); // 8080
-    return `${url.protocol}//${url.host}/favicon.ico`
+    console.log(url.pathname) //pathname 
+    let iconUrl = `${url.protocol}//${url.host}/favicon.ico`;
+    console.log(iconUrl);
+    return iconUrl;
   }
 }
