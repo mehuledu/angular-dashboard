@@ -13,7 +13,6 @@ import { AppComponent } from './app.component';
 
 import { BookmarkComponent } from './bookmark/bookmark.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { BookmarkService } from './bookmark/bookmark.service';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SamsungNavbarComponent } from './samsung-navbar/samsung-navbar.component';
 import { JsonDataService } from './services/json-data.service';
@@ -22,6 +21,6 @@ import { JsonDataService } from './services/json-data.service';
   imports:      [ BrowserModule, FormsModule, RouterModule, AppRoutingModule,HttpClientModule],
   declarations: [ AppComponent, BookmarkComponent, NavbarComponent, PageNotFoundComponent, SamsungNavbarComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [BookmarkService, JsonDataService]
+  providers: [JsonDataService]
 })
 export class AppModule { }
