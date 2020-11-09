@@ -1,10 +1,10 @@
 export class Bookmark {
   subject: string;
-  references: Array<reference>;
+  references: Array<Reference>;
   description?: string;
 }
 
-export class reference {
+export class Reference {
   faviconUrl?: string;
   url: string;
   description?: string;
