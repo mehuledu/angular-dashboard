@@ -1,0 +1,52 @@
+{
+  "customers": {
+    "module": [
+      "Add Customer",
+      "List Customer",
+      "Companies",
+      "Groups",
+      "Files"
+    ],
+    "model": {
+      "company": {
+        "companyName": "",
+        "Code": "",
+        "businessNumber": "",
+        "url": "",
+        "email": "",
+        "phone": "",
+        "logoUrl": "",
+        "address": "",
+        "city": "",
+        "stateRegion": "",
+        "zipPostalCode": "",
+        "country": ""
+      },
+      "customer": {
+        "fullName": "",
+        "code": "",
+        "company": "",
+        "businessNumber": "",
+        "type": [
+          "customer",
+          "Supplier"
+        ],
+        "address": "",
+        "city": "",
+        "stateRegion": "",
+        "zipPostalCode": "",
+        "country": "",
+        "email": "",
+        "secondaryEmail": "",
+        "phone": "",
+        "currency": "",
+        "group": "",
+        "owner": "",
+        "userName": "",
+        "password": "",
+        "confirmPassword": "",
+        "welcomeEmail": true
+      }
+    }
+  }
+}
