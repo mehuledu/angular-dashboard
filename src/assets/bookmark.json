@@ -1,31 +1,26 @@
 [
   {
-    "subject": "angular",
-    "references": [
-      {
-        "url": "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/",
-        "description": ""
-      },
-      {
-        "url": "https://embed.plnkr.co/plunk/OPzCGl",
-        "description": "ng-bootstrap datepicker custome date format"
-      },
-      {
-        "url": "https://docs.appbase.io/docs/reactivesearch/v3/range/multirange/",
-        "description": ""
-      },
-      {
-        "url": "https://medium.com/@lukelindner",
-        "description": ""
-      },
-      {
-        "url": "https://regex101.com/r/hL2pF2/1",
-        "description": ""
-      },
-      {
-        "url": "https://github.com/liyasthomas",
-        "description": ""
-      }
-    ]
+    "url": "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/",
+    "description": ""
+  },
+  {
+    "url": "https://embed.plnkr.co/plunk/OPzCGl",
+    "description": "ng-bootstrap datepicker custome date format"
+  },
+  {
+    "url": "https://docs.appbase.io/docs/reactivesearch/v3/range/multirange/",
+    "description": ""
+  },
+  {
+    "url": "https://medium.com/@lukelindner",
+    "description": ""
+  },
+  {
+    "url": "https://regex101.com/r/hL2pF2/1",
+    "description": ""
+  },
+  {
+    "url": "https://github.com/liyasthomas",
+    "description": ""
   }
 ]

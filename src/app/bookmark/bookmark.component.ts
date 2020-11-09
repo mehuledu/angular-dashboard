@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { JsonDataService } from "./../services/json-data.service";
-import { Bookmark, Reference } from "./bookmark";
+import { Bookmark, } from "./bookmark";
 @Component({
   selector: "app-bookmark",
   templateUrl: "./bookmark.component.html",
@@ -16,9 +16,7 @@ export class BookmarkComponent implements OnInit {
       .subscribe((response: Array<Bookmark>) => {
         this.bookmarks = response;
         this.bookmarks.forEach((obj: Bookmark) => {
-          obj.references.map((obj: Reference) => {
-            obj.faviconUrl = this.getFaviconUrl(obj.url);
-          });
+          obj.faviconUrl = this.getFaviconUrl(obj.url);
         });
       });
   }
@@ -28,7 +26,7 @@ export class BookmarkComponent implements OnInit {
     console.log(url.protocol); // http:
     console.log(url.host); // localhost:8080
     console.log(url.port); // 8080
-    console.log(url.pathname) //pathname 
+    console.log(url.pathname); //pathname
     let iconUrl = `${url.protocol}//${url.host}/favicon.ico`;
     console.log(iconUrl);
     return iconUrl;
