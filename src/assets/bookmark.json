@@ -38,5 +38,9 @@
   {
     "url": "https://docs.microsoft.com/en-us/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-3.1",
     "subject": "C#"
+  },
+  {
+    "url": "https://medium.com/@balramchavan/simple-crud-todo-app-angular-9-1-asp-net-core-3-1-swagger-automapper-and-mongodb-c659d985fc9b",
+    "subject": "C#"
   }
 ]
