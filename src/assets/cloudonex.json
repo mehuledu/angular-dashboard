@@ -24,6 +24,8 @@
       },
       "customer": {
         "fullName": "",
+        "firstName" :"",
+        "lName" :"",
         "code": "",
         "company": "",
         "businessNumber": "",
