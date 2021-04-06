@@ -247,3 +247,5 @@ class StringUtils
 }
 
 var su = StringUtils;
+
+//https://github.com/tejzpr/stringutils
