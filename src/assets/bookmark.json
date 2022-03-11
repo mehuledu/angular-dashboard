@@ -1,63 +1,23 @@
 [
   {
-
-    "url" :"https://github.com/michelcedric/UserImpersonation"
-  },
-  {
-    "url": "https://www.codegrepper.com/code-examples/javascript/get+response+header+in+angular"
-  },
-  {
-    "url": "https://www.positronx.io/"
-  },
-  {
-    "url": "https://www.positronx.io/angular-8-select-dropdown-tutorial-with-reactive-forms/"
-  },
-  {
-    "url": "https://stackoverflow.com/questions/40900414/asp-net-core-dependency-injection-error-unable-to-resolve-service-for-type-whil",
-    "description": ".NET Core, C#"
-  },
-  {
-    "url": "https://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core",
-    "description": ""
-  },
-  {
-    "url": "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/",
-    "description": ""
-  },
-  {
-    "url": "https://embed.plnkr.co/plunk/OPzCGl",
-    "description": "ng-bootstrap datepicker custome date format"
-  },
-  {
-    "url": "https://docs.appbase.io/docs/reactivesearch/v3/range/multirange/",
-    "description": ""
-  },
-  {
-    "url": "https://medium.com/@lukelindner",
-    "description": ""
-  },
-  {
-    "url": "https://regex101.com/r/hL2pF2/1",
-    "description": ""
-  },
-  {
-    "url": "https://github.com/liyasthomas",
-    "description": ""
-  },
-  {
-    "url": "https://blogs.cuttingedge.it/steven/posts/2016/abstract-factories-are-a-code-smell",
-    "subject": "C#"
-  },
-  {
-    "url": "https://docs.microsoft.com/en-us/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-3.1",
-    "subject": "C#"
-  },
-  {
-    "url": "https://medium.com/@balramchavan/simple-crud-todo-app-angular-9-1-asp-net-core-3-1-swagger-automapper-and-mongodb-c659d985fc9b",
-    "subject": "Angular"
-  },
-  {
-    "url": "https://www.techiediaries.com/angular-10/",
-    "subjcet": "Angular"
+    "tags": "Angular",
+    "bookmarks": [
+      "https://github.com/michelcedric/UserImpersonation",
+      "https://www.codegrepper.com/code-examples/javascript/get+response+header+in+angular",
+      "https://www.positronx.io/",
+      "https://www.positronx.io/angular-8-select-dropdown-tutorial-with-reactive-forms/",
+      "https://stackoverflow.com/questions/40900414/asp-net-core-dependency-injection-error-unable-to-resolve-service-for-type-whil",
+      "https://www.tutorialsteacher.com/core/dependency-injection-in-aspnet-core",
+      "https://embed.plnkr.co/rCqTphznFbImsy9wbWP6/",
+      "https://embed.plnkr.co/plunk/OPzCGl",
+      "https://docs.appbase.io/docs/reactivesearch/v3/range/multirange/",
+      "https://medium.com/@lukelindner",
+      "https://regex101.com/r/hL2pF2/1",
+      "https://github.com/liyasthomas",
+      "https://blogs.cuttingedge.it/steven/posts/2016/abstract-factories-are-a-code-smell",
+      "https://docs.microsoft.com/en-us/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-3.1",
+      "https://medium.com/@balramchavan/simple-crud-todo-app-angular-9-1-asp-net-core-3-1-swagger-automapper-and-mongodb-c659d985fc9b",
+      "https://www.techiediaries.com/angular-10/"
+    ]
   }
 ]

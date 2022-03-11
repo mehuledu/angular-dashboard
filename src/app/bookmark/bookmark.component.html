@@ -1,14 +1,11 @@
 <div class="container-fluid">
-	<div class="row">
-		<ng-container *ngFor="let bookmark of bookmarks">
-			<div class="card text-center ml-2 mt-2" style="width: 18rem;">
-				<div class="card-body">
-					<h5 class="card-title"><img [src]="bookmark.faviconUrl"></h5>
-						<h6 class="card-subtitle mb-2 text-muted">{{bookmark.subject}}</h6>
-						<p class="card-text">{{bookmark.description}}</p>
-						<a [href]="bookmark.url" class="card-link" target="_blank">Open link</a>
-				</div>
-			</div>
-		</ng-container>
-	</div>
+  <div class="row">
+    <ng-container *ngFor="let book of books">
+      <ul class="list-group">
+        <ng-container *ngFor="let url of book.bookmarks">
+          <li class="list-group-item">	<a [href]="url" class="card-link" target="_blank">{{url}}</a></li>
+        </ng-container>
+      </ul>
+    </ng-container>
+  </div>
 </div>

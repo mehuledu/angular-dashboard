@@ -1,23 +1,20 @@
-import { Component, OnInit } from "@angular/core";
-import { JsonDataService } from "./../services/json-data.service";
-import { Bookmark, } from "./bookmark";
+import { Component, OnInit } from '@angular/core';
+import { JsonDataService } from './../services/json-data.service';
+import { Book, Bookmark } from './bookmark';
 @Component({
-  selector: "app-bookmark",
-  templateUrl: "./bookmark.component.html",
-  styleUrls: ["./bookmark.component.css"]
+  selector: 'app-bookmark',
+  templateUrl: './bookmark.component.html',
+  styleUrls: ['./bookmark.component.css'],
 })
 export class BookmarkComponent implements OnInit {
-  bookmarks: Array<Bookmark> = [];
+  books: Array<Book> = [];
   constructor(private bookmarkService: JsonDataService) {}
 
   ngOnInit() {
     this.bookmarkService
-      .getJSON("bookmark")
-      .subscribe((response: Array<Bookmark>) => {
-        this.bookmarks = response;
-        this.bookmarks.forEach((obj: Bookmark) => {
-          obj.faviconUrl = this.getFaviconUrl(obj.url);
-        });
+      .getJSON('bookmark')
+      .subscribe((response: Array<Book>) => {
+        this.books = response;
       });
   }
 

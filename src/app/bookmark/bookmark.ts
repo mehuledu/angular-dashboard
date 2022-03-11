@@ -4,3 +4,8 @@ export class Bookmark {
   description?: string;
   subject?: string;
 }
+
+export class Book {
+  tags: Array<string>;
+  bookmarks : Array<Bookmark>;
+}
