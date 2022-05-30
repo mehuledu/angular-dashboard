@@ -1,12 +1,7 @@
 [
   {
-    "tags": "Angular ",
+    "tags": "Angular",
     "bookmarks": [
-      "https://github.com/manfredsteyer/angular-oauth2-oidc",
-      "https://dotnetcoretutorials.com/2021/11/25/solving-github-password-authentication-403-errors/",
-      "https://github.com/auth0-blog/angular2-authentication-sample",
-      "https://github.com/auth0-blog/angular2-authentication-sample/blob/master/src/login/login.ts",
-      "https://github.com/auth0-blog/angular2-authentication-sample",
       "https://github.com/michelcedric/UserImpersonation",
       "https://www.codegrepper.com/code-examples/javascript/get+response+header+in+angular",
       "https://www.positronx.io/",
@@ -24,15 +19,7 @@
       "https://medium.com/@balramchavan/simple-crud-todo-app-angular-9-1-asp-net-core-3-1-swagger-automapper-and-mongodb-c659d985fc9b",
       "https://www.techiediaries.com/angular-10/",
       "https://projects.lukehaas.me/css-loaders/",
-      "https://medium.com/show-loader-during-http-request-handeling/angular-display-loader-on-every-http-request-handeling-concurrency-with-rxjs-6b2515abe52a",
-      "https://github.com/AriPal?tab=repositories",
-      "https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/",
-      "https://www.digitalocean.com/community/tutorials/detect-responsive-screen-sizes-in-angular",
-      "https://www.tektutorialshub.com/angular/dynamic-page-title-based-on-route-in-angular/",
-      "https://www.sarasoueidan.com/blog/svg-coordinate-systems",
-      "https://www.sarasoueidan.com/blog/css-svg-clipping",
-      "https://bobbyhadz.com/blog/typescript-interface-default-values",
-      "https://www.itsolutionstuff.com/post/angular-9-toastr-notifications-exampleexample.html"
+      "https://medium.com/show-loader-during-http-request-handeling/angular-display-loader-on-every-http-request-handeling-concurrency-with-rxjs-6b2515abe52a"
     ]
   }
 ]
