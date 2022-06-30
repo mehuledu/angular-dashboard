@@ -2,6 +2,8 @@
   {
     "tags": "Angular ",
     "bookmarks": [
+      "https://indepth.dev/posts/1047/implementing-multi-language-angular-applications-rendered-on-server",
+      "https://stackoverflow.com/questions/32693061/how-can-i-select-an-element-in-a-component-template",
       "http://live.datatables.net/doselave/3/edit",
       "https://debugmode.net/2019/10/24/when-to-use-the-subscribe-method-or-async-pipe-in-angular/",
       "https://github.com/auth0-blog/angular2-authentication-sample/blob/master/src/login/login.ts",
