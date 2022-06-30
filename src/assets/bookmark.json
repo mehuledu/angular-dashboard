@@ -2,6 +2,10 @@
   {
     "tags": "Angular ",
     "bookmarks": [
+      "https://github.com/michelcedric/UserImpersonation/tree/master/UserImpersonation",
+      "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1",
+      "https://stackoverflow.com/questions/30701006/how-to-get-the-current-logged-in-user-id-in-asp-net-core",
+      "https://ultimatecourses.com/blog/classes-vs-interfaces-in-typescript#:~:text=A%20class%20is%20a%20blueprint,implementation%20nor%20initialisation%20for%20them.",
       "https://indepth.dev/posts/1047/implementing-multi-language-angular-applications-rendered-on-server",
       "https://stackoverflow.com/questions/32693061/how-can-i-select-an-element-in-a-component-template",
       "http://live.datatables.net/doselave/3/edit",
