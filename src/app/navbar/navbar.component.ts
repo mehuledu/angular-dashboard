@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import * from metadata/typeli
+import * as typelists from "@typelist";
 
 @Component({
   selector: "app-navbar",
