@@ -2,6 +2,7 @@
   {
     "tags": "Angular ",
     "bookmarks": [
+      "https://coderjony.com/blogs/creating-a-pipe-to-filter-the-items-in-the-list-using-angular-7",
       "https://medium.com/swlh/filtering-and-sorting-an-array-of-objects-using-pipes-in-angular-8d369a2f1ce9",
       "https://www.tektutorialshub.com/angular/renderer2-angular/#adding-removing-css-classes-addclass-removeclass",
       "https://www.querythreads.com/view-child-not-working-cannot-read-property-native-element-of-undefined/",
