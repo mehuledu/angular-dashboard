@@ -7,7 +7,8 @@ import { Book, Bookmark } from './bookmark';
   styleUrls: ['./bookmark.component.css'],
 })
 export class BookmarkComponent implements OnInit {
-  search:string = "";
+  filterMetadata = { count: 0 };
+  search:string;
   books: Array<Book> = [];
   constructor(private bookmarkService: JsonDataService) {}
 
