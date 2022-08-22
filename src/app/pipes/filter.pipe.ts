@@ -1,12 +1,19 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'filter'
+  name: 'filter',
+  pure: false
 })
 export class FilterPipe implements PipeTransform {
 
-  transform(value: Array<string>, args?: any): any {
-    return value.filter((obj:string) => obj.startsWith(args[0]));
+  transform(value: Array<any>, args?: any): any {
+    
+    console.log(value);
+    if (!value || !args) {
+      return value;
+    }
+    
+    return value.filter((obj:string) => obj.includes(args));
   }
 
 }

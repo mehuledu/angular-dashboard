@@ -15,6 +15,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { SamsungNavbarComponent } from "./samsung-navbar/samsung-navbar.component";
 import { JsonDataService } from "./services/json-data.service";
+import { FilterPipe } from "./pipes/filter.pipe";
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { JsonDataService } from "./services/json-data.service";
     BookmarkComponent,
     NavbarComponent,
     PageNotFoundComponent,
-    SamsungNavbarComponent
+    SamsungNavbarComponent,
+    FilterPipe
   ],
   bootstrap: [AppComponent],
   providers: [JsonDataService]

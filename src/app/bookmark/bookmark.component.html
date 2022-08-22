@@ -1,8 +1,12 @@
 <div class="container-fluid">
   <div class="row">
+    <input [(ngModel)]="search" class="form-control" id="myInput" type="text" placeholder="Search..">
+    <p>{{search}}</p>
+  </div>
+  <div class="row">
     <ng-container *ngFor="let book of books">
       <ul class="list-group">
-        <ng-container *ngFor="let url of book.bookmarks">
+        <ng-container *ngFor="let url of book.bookmarks | filter :search">
           <li class="list-group-item">	<a [href]="url" class="card-link" target="_blank">{{url}}</a></li>
         </ng-container>
       </ul>
