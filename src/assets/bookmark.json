@@ -2,6 +2,7 @@
   {
     "tags": "Angular ",
     "bookmarks": [
+      "https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application",
       "https://coderjony.com/blogs/creating-a-pipe-to-filter-the-items-in-the-list-using-angular-7",
       "https://medium.com/swlh/filtering-and-sorting-an-array-of-objects-using-pipes-in-angular-8d369a2f1ce9",
       "https://www.tektutorialshub.com/angular/renderer2-angular/#adding-removing-css-classes-addclass-removeclass",
