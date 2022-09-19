@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "TechDeck": [""]
+  },
+  {
+    "id": 2,
+    "TechDeck": ["https://freemarker.apache.org", "https://mjml.io"]
+  },
+  {
+    "id": 3,
+    "TechDeck": [""]
+  },
+  {
+    "id": 4,
+    "TechDeck": [""]
+  },
+  {
+    "id": 5,
+    "TechDeck": [""]
+  }
+]
